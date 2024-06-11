@@ -1,0 +1,62 @@
+.terminal{
+    height: 400px;
+    overflow-y: auto;
+    padding-left: 5px;
+}
+.terminal p{
+ color: greenyellow;
+}
+
+#des{
+  color: violet;
+  text-shadow: 1px 1px 2px white;
+}
+#com{
+  color: orange;
+  text-shadow: none;
+}
+
+  input.transparent-input{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    color: orange;
+    font-size: 15px;
+  width: calc(100% - 10px); /* Adjust width for cursor */
+  padding-right: 10px;
+  position: relative; /* Adjust for cursor width */
+}
+
+  .command{
+    color: orange;
+  }
+  .output {
+    margin-top: 10px;
+    color: white;
+  }
+
+  input.transparent-input::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: orange;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  
+  

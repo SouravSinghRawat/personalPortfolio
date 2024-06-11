@@ -1,0 +1,11 @@
+.navigation-button{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-button button{
+    background-color: gray;
+    border: none;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}

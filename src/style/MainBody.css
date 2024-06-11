@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.main-body{
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Set maximum width */
+    background-color: black
+}
